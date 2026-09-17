@@ -31,3 +31,11 @@ Ela cumpre seu objetivo de mostrar o desacoplamento e excesso de classes que sem
 Na implementação foi usado `protected abstract String marca();` que diz que não tem realmente uma marca fixa, deixando que a subclasse diga qual é marca pelo método abstrato...
 
 Não tem testes unitários pra testar combinação entre cada marca e tamanho, extensão com Guaraná, rejeitar tamanho inválido, etc...
+
+## Melhorias na v2-p2
+
+Na `v2-p2`, foram realizadas melhorias na implementação, incluindo o controle
+de estoque, informações sobre o volume e o tipo de embalagem, validações e
+testes.
+
+[Acessar a v2-p2 — implementação melhorada](https://github.com/Thalisson-Souza/APSOO-bridge/tree/v2-p2)
