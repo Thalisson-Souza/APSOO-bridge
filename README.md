@@ -34,8 +34,8 @@ Não tem testes unitários pra testar combinação entre cada marca e tamanho, e
 
 ## Melhorias na v2-p2
 
-Na `v2-p2`, foram realizadas melhorias na implementação, incluindo o controle
-de estoque, informações sobre o volume e o tipo de embalagem, validações e
+Na `v2-p2`, realizei melhorias, como: colocar controle
+de estoque, informação de volume e o tipo de embalagem, validações e
 testes.
 
 [Acessar a v2-p2 — implementação melhorada](https://github.com/Thalisson-Souza/APSOO-bridge/tree/v2-p2)
