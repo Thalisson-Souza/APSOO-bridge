@@ -7,4 +7,13 @@ public class Tamanho600ml implements Tamanho {
         return "garrafa de 600 ml";
     }
 
+    @Override
+    public int volumeEmMl() {
+        return 600;
+    }
+
+    @Override
+    public String tipoEmbalagem() {
+        return "garrafa";
+    }
 }

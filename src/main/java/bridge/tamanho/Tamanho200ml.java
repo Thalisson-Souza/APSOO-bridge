@@ -7,4 +7,13 @@ public class Tamanho200ml implements Tamanho {
         return "lata de 200 ml";
     }
 
+    @Override
+    public int volumeEmMl() {
+        return 200;
+    }
+
+    @Override
+    public String tipoEmbalagem() {
+        return "lata";
+    }
 }

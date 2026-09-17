@@ -15,7 +15,11 @@ public abstract class Refrigerante {
 
     protected abstract String marca();
 
+    public String descricao() {
+        return marca() + " — " + tamanho.descricao();
+    }
+
     public void servir() {
-        System.out.println("Refrigerante servido: " + marca() + " — " + tamanho.descricao() + ".");
+        System.out.println("Refrigerante servido: " + descricao() + ".");
     }
 }
