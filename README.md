@@ -11,3 +11,8 @@ Adição de validação no cadastro de quantidades, pra não deixar criar refrig
 Adição de testes para validar as combinações entre marca e tamanho, controle de estoque, validação de tamanho nulo. Antes isso não era de fato validado o comportamento, apenas era executado.
 
 Tudo ainda mantendo o padrão Bridge. Mas fica claro o quão bom nesse cenário foi usar esse padrão.
+
+## Próxima etapa
+
+A extensão do sistema com a marca Guaraná e o tamanho de 1 litro está
+documentada na [v3 — extensão do sistema](https://github.com/Thalisson-Souza/APSOO-bridge/tree/v3).
