@@ -1,5 +1,7 @@
 # Etapa 2 — Implementação melhorada
 
+Commit das melhorias: [ver commit](https://github.com/Thalisson-Souza/APSOO-bridge/commit/3b77caef118a9cd425cdaedda435624bd2a41a0c)
+
 Foi criada uma classe `Estoque`, pra controle de quantidade de refrigerantes. Pra conseguir adicionar, consultar produtos ou quantidades, ver se disponível e remover quantidade quando um refrigerante é servido.
 
 A interface `Tamanho` foi melhorada. Agora com volume em ml e tipo de embalagem. Tirando a representação só por texto.
