@@ -6,6 +6,8 @@ O bar precisa agora vender Guaraná (nova marca) e também passar a oferecer 1
 litro (novo tamanho). Adicione os dois sem modificar nenhuma classe ou interface
 existente.
 
+Commit da extensão: [ver commit](https://github.com/Thalisson-Souza/APSOO-bridge/commit/c7051add15d73161ca2d4f1cb51b7f7507dd1f9f)
+
 ## Classes criadas
 
 Foi criada a classe `Guarana`, que representa a nova marca e estende
