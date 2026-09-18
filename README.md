@@ -1,30 +1,18 @@
 # Atividade Prática 06 — Padrão Bridge
 
-## Descrição
+## Cenário
 
-Em um bar, o estoque possui diferentes marcas de refrigerante, como Coca-Cola,
-Fanta e Sprite, além de diferentes tamanhos, como 200 ml, 300 ml e 600 ml.
+Em um bar, o estoque de refrigerantes é composto por diferentes marcas
+(Coca-Cola, Fanta, Sprite, etc.) e tamanhos (200ml, 300ml, 600ml, etc.). Criar
+classes para cada combinação possível (ex.: CocaCola200ml, Fanta300ml)
+aumentaria muito o número de classes, gerando uma explosão combinatória e código
+redundante.
 
-Criar uma classe para cada combinação possível causaria uma explosão no número
-de classes e repetição de código.
+## Requisitos
 
-## Objetivo
-
-Aplicar o padrão Bridge para separar a abstração, representada pelas marcas de
-refrigerante, da implementação, representada pelos tamanhos e volumes.
-
-Com essa separação, novas marcas e novos tamanhos podem ser adicionados de forma
-independente.
-
-## Requisitos da atividade
-
-- utilizar o padrão Bridge;
-- separar marcas e tamanhos por meio de composição;
-- permitir a combinação entre qualquer marca e qualquer tamanho;
-- evitar uma classe específica para cada combinação;
-- adicionar posteriormente a marca Guaraná e o tamanho de 1 litro sem alterar
-  as classes existentes;
-- relacionar a implementação ao diagrama UML e aos conceitos do padrão GoF.
+Utilize o padrão Bridge para desacoplar a abstração (tipo/marca de
+refrigerante) da implementação (tamanho/volume), permitindo que novas marcas e
+novos tamanhos sejam adicionados de forma independente.
 
 ## Etapas do trabalho
 
