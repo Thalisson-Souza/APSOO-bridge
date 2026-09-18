@@ -12,6 +12,8 @@ O método servir() de Refrigerante deve combinar a marca com a descrição do ta
 
 ## O que foi feito na `v2-p1`
 
+Commit da implementação inicial: [ver commit](https://github.com/Thalisson-Souza/APSOO-bridge/commit/e52ced5be3a28e5afeaae2a8d8e1596d3a73ed87)
+
 Foi implementada a estrutura inicial do padrão Bridge em Java. A classe
 `Refrigerante` representa a Abstraction, enquanto `CocaCola`, `Fanta` e
 `Sprite` representam as RefinedAbstractions. A interface `Tamanho` representa o
