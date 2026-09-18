@@ -1,28 +1,18 @@
 # Bridge
 
-## Cenário: Estoque de Refrigerantes
+## Cenário
 
-**Descrição:**
-
-Imagine que você está desenvolvendo um sistema para representar o estoque de
-refrigerantes de um bar. Nesse estoque, existem diferentes marcas, como
-Coca-Cola, Fanta e Sprite, além de diferentes tamanhos, como 200ml, 300ml e
-600ml.
-
-Criar classes para cada combinação possível, como `CocaCola200ml` e
-`Fanta300ml`, aumentaria muito o número de classes, gerando uma explosão
+Em um bar, o estoque de refrigerantes é composto por diferentes marcas
+(Coca-Cola, Fanta, Sprite, etc.) e tamanhos (200ml, 300ml, 600ml, etc.).
+Criar classes para cada combinação possível (ex.: CocaCola200ml,
+Fanta300ml) aumentaria muito o número de classes, gerando uma explosão
 combinatória e código redundante.
 
-**Requisitos:**
+## Requisitos
 
-1. O sistema deve representar diferentes marcas de refrigerante.
-2. O sistema deve representar diferentes tamanhos e volumes.
-3. O padrão Bridge deve desacoplar a abstração, representada pela marca, da
-   implementação, representada pelo tamanho.
-4. Novas marcas e novos tamanhos devem poder ser adicionados de forma
-   independente.
-5. O sistema não deve precisar de uma classe específica para cada combinação de
-   marca e tamanho.
+Utilize o padrão Bridge para desacoplar a abstração (tipo/marca de
+refrigerante) da implementação (tamanho/volume), permitindo que novas marcas e
+novos tamanhos sejam adicionados de forma independente.
 
 ## Organização das entregas
 
