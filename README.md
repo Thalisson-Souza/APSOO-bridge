@@ -16,7 +16,10 @@ novos tamanhos sejam adicionados de forma independente.
 
 ## Etapas do trabalho
 
-- [v1 — modelagem UML](https://github.com/Thalisson-Souza/APSOO-bridge/tree/v1);
-- [v2-p1 — implementação e revisão crítica](https://github.com/Thalisson-Souza/APSOO-bridge/tree/v2-p1);
-- [v2-p2 — melhorias da implementação](https://github.com/Thalisson-Souza/APSOO-bridge/tree/v2-p2);
-- [v3 — extensão com Guaraná e 1 litro](https://github.com/Thalisson-Souza/APSOO-bridge/tree/v3).
+| v1 | v2-p1 | v2-p2 |
+|---|---|---|
+| [Modelagem UML](https://github.com/Thalisson-Souza/APSOO-bridge/tree/v1) | [Implementação e revisão crítica](https://github.com/Thalisson-Souza/APSOO-bridge/tree/v2-p1) | [Melhorias da implementação](https://github.com/Thalisson-Souza/APSOO-bridge/tree/v2-p2) |
+
+| v3 |
+|---|
+| [Extensão com Guaraná e 1 litro](https://github.com/Thalisson-Souza/APSOO-bridge/tree/v3) |
