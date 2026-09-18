@@ -1,8 +1,6 @@
-# Etapa 1 — Modelagem UML
+# Etapa 1 — Diagrama UML
 
-## Diagrama UML
-
-O diagrama apresenta os papéis do padrão Bridge:
+O diagrama com os papéis do padrão Bridge:
 
 - `Refrigerante`: Abstraction;
 - `CocaCola`, `Fanta` e `Sprite`: RefinedAbstraction;
@@ -10,11 +8,9 @@ O diagrama apresenta os papéis do padrão Bridge:
 - `Tamanho200ml`, `Tamanho300ml` e `Tamanho600ml`: ConcreteImplementor.
 
 ![Diagrama UML do Bridge](anexos/bridge-UML.png)
-
-Nesta etapa, foi realizada somente a modelagem da solução. Não há código de
-implementação, conforme solicitado na atividade.
+Objetivo foi representar os refrigerante e separar marcas dos tamanhos, para modularizar e não evitar de ter que criar uma classe pra cada combinação.
 
 ## Próxima etapa
 
-A implementação e a revisão crítica estão documentadas na
+A primeira implementação e revisão crítica estão em
 [v2-p1 — implementação e revisão crítica](https://github.com/Thalisson-Souza/APSOO-bridge/tree/v2-p1).
